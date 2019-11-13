@@ -1,0 +1,28 @@
+{"intents": [
+    {"tag":"greetings",
+    "patterns":["hi","how are you","is anyone there?","hello","good day","whats up"],
+     "responses":["hello!","good to see you again!","hi there","how can i help"],
+    "context_set":""
+    },
+    {"tag":"age",
+        "patterns":["how old","how old is tim","what is your age","how old are you","age?"],
+     "responses":["i am 18 years old!","18 year young!"],
+    "context_set":""
+    },
+    {"tag":"name",
+        "patterns":["what is your name","what should i call you","whats your name?"],
+     "responses":["you can call me tim","I'm tim !","I'm Tim aka tech with Tim."],
+    "context_set":""
+    },
+    {"tag":"shop",
+        "patterns":["Id like to buy somthing","whats on the menu","what do you recommend?"," can i get somthing to eat"],
+     "responses":["we sell chocolate chip cookies for $2!","cookies are on the menu!"],
+    "context_set":""
+    },
+    {"tag":"hours",
+        "patterns":["when are you guys open","what are your hours","hours of operation"],
+     "responses":["we are open 7am-4pm monday-friday !"],
+    "context_set":""
+    }
+  ]
+}
